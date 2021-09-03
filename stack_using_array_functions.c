@@ -66,6 +66,8 @@ int Pop()
 }
 
 // function to print out stack elements
+
+
 // variables are global
 int PrintStack()
 {
