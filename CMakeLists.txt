@@ -5,4 +5,4 @@ set(CMAKE_C_STANDARD 11)
 
 add_executable(Stack
         stack_using_array.h
-        stack_using_array_functions.c)
+        stack_using_array_functions.h Stack_linked_list.c)
