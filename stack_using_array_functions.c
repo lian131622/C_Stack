@@ -53,7 +53,8 @@ int Pop()
 	int returnValue;
 	if(sp>0) 
 	{		
-		returnValue = stack[sp];	// COMPLETE
+		returnValue = stack[sp-1];	// COMPLETE
+        sp-=1;
 		printf("removing %d from stack\n",returnValue);
 		// COMPLETE LOGIC
 	}

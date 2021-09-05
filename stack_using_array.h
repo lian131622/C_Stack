@@ -21,7 +21,7 @@ int main()
 	
 	// print out stack contents
 	printf("stack contents\n");
-	for (j=0;j<=sp;j++   )    	// COMPLETE Loop condition
+	for (j=0;j<=sp;j++)    	// COMPLETE Loop condition
 	{
 		printf("stack[%d] = %d\n",j,stack[j]);
 	}
